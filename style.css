@@ -26,6 +26,12 @@ h2{
     opacity: 0;
 }
 
+h3{
+    font-size: 2.5vw;
+    text-align: center;
+    transform: translateY(7vw);
+}
+
 .front-panel{
     background-color: #847577;
     padding-top: 5vw;
@@ -70,4 +76,12 @@ img:hover{
 
 #ctc{
     height: 27vw;
+}
+
+.rectangle{
+    width: 20vw ;
+    height: 1vw;
+    background-color: #847577;
+    margin-left: 39.75vw;
+    transform: translateY(5vw);
 }
