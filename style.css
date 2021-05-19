@@ -67,15 +67,42 @@ img:hover{
 }
 
 #prj{
-    height: 27vw;
+    height: 70vw;
 }
 
 #skill{
     height: 27vw;
 }
 
+.item1 { grid-area: first; }
+.item2 { grid-area: second; }
+.item3 { grid-area: third; }
+.item4 { grid-area: fourth; }
+.item5 { grid-area: fifth; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'first second third'
+    'fourth fifth sixth';
+  grid-gap: 3vw;
+  transform: translateY(10vw);
+  align-items: center;
+  padding-left: 4%;
+}
+
+.grid-container > div {
+    background-color: #CFD2CD;
+    text-align: center;
+    align-items: center;
+    font-size: 2vw;
+    height: 25vw;
+    width: 25vw;
+    padding: 10px;
+    box-shadow: 5px 10px gray;
+  }
+
 #ctc{
-    height: 27vw;
 }
 
 .rectangle{
@@ -85,3 +112,5 @@ img:hover{
     margin-left: 39.75vw;
     transform: translateY(5vw);
 }
+
+

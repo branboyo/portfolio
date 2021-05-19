@@ -43,6 +43,7 @@ document.getElementById('tctc').addEventListener("mouseout", function() {
     prj.style.color="#fff";
 });
 
+//Loads child HTML onto parent(page.html)
 $(function(){
     $("#prj").load("sections/projects.html"); 
 })
