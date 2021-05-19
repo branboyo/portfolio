@@ -11,3 +11,37 @@ document.body.onload=function(){
 };
 
 
+//Reactive tab items on mouse hover
+//When tab item is hovered
+document.getElementById('tprj').addEventListener("mouseover", function(){
+    let prj = document.getElementById('tprj');
+    prj.style.color="#847577";
+});
+//When tab item is not hovered
+document.getElementById('tprj').addEventListener("mouseout", function(){
+    let prj = document.getElementById('tprj');
+    prj.style.color='#fff';
+})
+
+document.getElementById('tskill').addEventListener("mouseover", function(){
+    let prj = document.getElementById('tskill');
+    prj.style.color="#847577";
+});
+
+document.getElementById('tskill').addEventListener("mouseout", function(){
+    let skill = document.getElementById('tskill');
+    skill.style.color="#fff";
+})
+
+document.getElementById('tctc').addEventListener("mouseover", function() {
+    let prj = document.getElementById('tctc');
+    prj.style.color="#847577";
+});
+
+document.getElementById('tctc').addEventListener("mouseout", function() {
+    let prj = document.getElementById('tctc');
+    prj.style.color="#fff";
+});
+
+
+
