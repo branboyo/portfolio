@@ -1,6 +1,4 @@
-html{
-    scroll-behavior: smooth;
-}
+html{ scroll-behavior: smooth; }
 
 body {
     width: 100%;
@@ -34,13 +32,14 @@ h3{
     transform: translateY(7vw);
 }
 
-h5{
-    text-align: left;
+h4{ 
+    text-align: center; 
+    font-size: 1.25vw;
 }
 
-ul{
-    line-height: 50%;
-}
+h5{ text-align: left; }
+
+ul{ line-height: 50%; }
 
 /*Large red area at the start*/
 .front-panel{
@@ -66,17 +65,11 @@ ul{
 }
 
 /*For individual social icons*/
-#li:hover{
-    transform: scale(1.25);
-}
+#li:hover{ transform: scale(1.25); }
 
-#gh:hover{
-    transform: scale(1.25);
-}
+#gh:hover{ transform: scale(1.25); }
 
-#gm:hover{
-    transform: scale(1.4);
-}
+#gm:hover{ transform: scale(1.4); }
 
 .tabs{
     text-decoration: none;
@@ -87,9 +80,7 @@ ul{
     transition:.5s linear;
 }
 
-#prj{
-    height: 70vw;
-}
+#prj{ height: 70vw; }
 
 .item1 { grid-area: first; }
 .item2 { grid-area: second; }
@@ -119,36 +110,40 @@ ul{
     box-shadow: 5px 10px gray;
 }
 
-.pimg{
-    transition: .2s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+.pimg{ transition: .2s cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 .pimg:hover{
-    
     transform: scale(1.3);
     filter: blur(1px);
     -webkit-filter: blur(1px);
 }
 
-#skill{
-    height: 43vw;
-}
+#skill{ height: 43vw; }
 
 .skillsec{
     float: left;
     height: 29vw;
     width: 15vw;
-    font-size: 1.5vw;
-    background-color: #CFD2CD;
     margin: 0 5vw;
     margin-top: 10vw;
-    text-align: center;
+    background-color: #CFD2CD;
     box-shadow: 5px 10px gray;
+    font-size: 1.5vw;
+    text-align: center;
     color: #524b4b;
 }
 
-#ctc{
-    height: 49vw;
+#ctc{ height: 58vw; }
+
+.form{
+    background-color: #CFD2CD;
+    height: 42vw;
+    width: 40vw;
+    margin: auto;
+    margin-top: 10vw;
+    box-shadow: 5px 10px gray;
+    padding-top: .25vw;
+    text-align: center;
 }
 
 .rectangle{
@@ -159,4 +154,14 @@ ul{
     transform: translateY(5vw);
 }
 
+button{
+    border: none; 
+    width: 30%; 
+    height: 3vw; 
+    margin: auto;
+    background-color: #fff; 
+    transition: .25s linear;
+    font-family: Abel;
+    color: black;
+}
 
