@@ -3,30 +3,79 @@
     <div class='rectangle'></div>
         
 </div>
-<img></img>
+<div id="curtain">
+    <div id="popup-1" class="popup">
+        
+        <div class="popup-left">
+            
+        </div>
+
+        <div class="popup-right">
+            <p style="font-size:2.5vw; text-align:center;">Personal Portfolio</p>
+        </div>
+        
+    </div>
+    <div id="popup-2" class="popup">
+        <div class="popup-left">
+            
+        </div>
+        
+        <div class="popup-right">
+            <p style="font-size:2.5vw; text-align:center;">Amazoff [Under development]</p>
+        </div>
+    </div>
+    <div id="popup-3" class="popup">
+        <div class="popup-left">
+            
+        </div>
+        
+        <div class="popup-right">
+            <p style="font-size:2.5vw; text-align:center;">OpenTok</p>
+        </div>
+    </div>
+    <div id="popup-4" class="popup">
+        <div class="popup-left">
+            
+        </div>
+        
+        <div class="popup-right">
+            <p style="font-size:2.5vw; text-align:center;">MALSearcher</p>
+        </div>
+    </div>
+    <div id="popup-5" class="popup">
+        <div class="popup-left">
+            <video width="90%" height="50%" style="margin:auto; margin-top:25%; display:block;" controls>
+                <source src="videos/childrenstt.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="popup-right">
+            <p style="font-size:2.5vw; text-align:center;">Children Speech-To-Text</p>
+        </div>
+    </div>
+</div>
 <div class="grid-container">
     <div>Personal Portfolio
-        <div class="item" onclick="location.href='www.google.com/';";><img class="pimg" id="item1" src="images/portfolio.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;"></div>
+        <div class="item" onclick="popup(1);";><img class="pimg" id="item1" src="images/portfolio.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;"></div>
         <p class="details" id="p1">View details</p>
     </div>
 
     <div>Amazoff [Under dev.]
-        <div class="item" onclick="location.href='www.google.com/';"><img class="pimg" id="item2" src="images/amazoff.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;"></div>
+        <div class="item" onclick="popup(2);"><img class="pimg" id="item2" src="images/amazoff.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;"></div>
         <p class="details" id="p2">View details</p>
     </div>
 
     <div>OpenTok
-        <div class="item" onclick="location.href='www.google.com/';"><img class="pimg" id="item3" src="images/amazoff.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;"></div>
+        <div class="item" onclick="popup(3);"><img class="pimg" id="item3" src="images/amazoff.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;"></div>
         <p class="details" id="p3">View details</p>
     </div>  
 
     <div>MALSearcher
-        <div class="item" onclick="location.href='www.google.com/';"><img class="pimg" id="item4" src="images/malsearcher.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;">   </div>
+        <div class="item" onclick="popup(4);"><img class="pimg" id="item4" src="images/malsearcher.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;">   </div>
         <p class="details" id="p4">View details</p>
     </div>
     
     <div>ChildrenSTT
-        <div class="item" onclick="location.href='www.google.com/';"><img class="pimg" id="item5" src="images/childrenstt.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;"></div>
+        <div class="item" onclick="popup(5);"><img class="pimg" id="item5" src="images/childrenstt.png" style="max-width: 75%; max-height:55%; height: 55%; width: 75%; margin-top: 3vw;"></div>
         <p class="details" id="p5">View details</p>
     </div>
 </div>
