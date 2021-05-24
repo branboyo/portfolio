@@ -39,7 +39,11 @@ h4{
 
 h5{ text-align: left; }
 
-ul{ line-height: 50%; }
+ul{ 
+    display: block;
+    line-height: 50%;
+}
+
 
 /*Large red area at the start*/
 .front-panel{
@@ -153,13 +157,14 @@ ul{ line-height: 50%; }
   }
 
 .popup{
-    height: 35vw;
+    height: 85%;
+    max-height: 40vw;
     width: 70vw;
     z-index: 2;
     display: none;
     position: relative;
     margin: auto;
-    top: 6vw;
+    top: 3.5vw;
 }
 
 .popup-left{
