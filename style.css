@@ -210,10 +210,12 @@ ul{
     margin-top: 4vw;
     color: #fff;
     background-color: #847577;
+    font-size:1vw;
 }
 
 .unavailable{
     pointer-events: none;
+    font-size:1vw;
 }
 
 /*Skills section*/
