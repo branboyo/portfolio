@@ -172,6 +172,7 @@ ul{
     height: 100%;
     width: 50%;
     background-color:#CFD2CD;
+    text-align: center;
 }
 
 .popup-right{
@@ -179,6 +180,31 @@ ul{
     height: 100%;
     width: 50%;
     background-color: #A6A2A2;
+}
+
+.close {
+    color: #fff;
+    float: right;
+    margin-right:1vw;
+    font-size: 3vw;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.available{
+    margin-top: 4vw;
+    color: #fff;
+    background-color: #847577;
+}
+
+.unavailable{
+    pointer-events: none;
 }
 
 #skill{ height: 43vw; }
